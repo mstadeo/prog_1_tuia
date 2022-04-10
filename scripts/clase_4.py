@@ -31,7 +31,7 @@ Partiendo de la edad del individuo (ingresada por el usuario) determine si la pe
 
 Realizar un programa utilizando control de flujo condicional que:
 Partiendo de la edad del individuo (ingresada por el usuario) determine si la persona pertenece a PEA o no.
-Y de pertenecer, a partir de las horas trabajadas (entero ingresado por el usuario en consola, indique si es:
+Y de pertenecer, a partir de las horas trabajadas (entero ingresado por el usuario en consola), indique si es:
     - ocupado >= 35 hs
     - 0 hs < subocupado < 35 hs
     - desocupado  == 0
@@ -60,6 +60,6 @@ Las condiciones para acceder a este tipo de financiacón son las siguientes:
     - ser monotributista
            * no superar la categoria G ($2.646.009,01 de facturación anual)
 
-generar un programa que por medio del control de flujo por declaraciones coneicionales if-elif-else pueda evaluar si la persona califica o no para el credioto e imprima por pantalla si califica o no para el mismo.
+generar un programa que por medio del control de flujo por declaraciones coneicionales if-elif-else pueda evaluar si la persona califica o no para el crédito e imprima por pantalla si califica o no para el mismo.
 
 """
