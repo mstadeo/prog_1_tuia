@@ -56,10 +56,10 @@ Las condiciones para acceder a este tipo de financiacón son las siguientes:
     - ser mayor de edad
     - no poseer vivienda propia
     - ser empleado en relacion de dependencia
-           * tener ingresos brutos no mayores a $3.000.000 de pesos anuales.
+           * tener ingresos netos no mayores a $2.646.009,01 de pesos anuales.
     - ser monotributista
            * no superar la categoria G ($2.646.009,01 de facturación anual)
 
 generar un programa que por medio del control de flujo por declaraciones coneicionales if-elif-else pueda evaluar si la persona califica o no para el crédito e imprima por pantalla si califica o no para el mismo.
-
+Nota: Las personas pueden sere monotributistas y trabajar en relacion de dependencia. En este caso, el ingreso es la suma de los ingresos en ambas actividades
 """
