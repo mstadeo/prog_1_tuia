@@ -16,7 +16,7 @@ for palabra in palabras:
     print(palabra, len(palabra))
 
 '''El objecto `palabras` es una lista, un objeto que aún no estudiamos. Por ahora pensemos en las listas como objetos que nos permiten guardar otros objetos dentro.
-En el código de arriba estamos usando el `for` para ir accediendo a cada una de las cadenas que están guardadas dentro de `palabras`.
+En el código de arriba estamos usando el `for` para ir accediendo a cada una de las cadenas que están guardadas dentro de la lista `palabras`.
 Luego, cuando pudimos acceder a la `palabra`, la imprimimos y medimos su longitud con la función len() '''
 
 '''
@@ -60,7 +60,7 @@ for i in range(1, 10, 2):
 '''
 Ejercicio de clase para hacer entre todos en el pizarrón
 Usando la lista de cadenas de abajo, generar una frase e imprimirla.
-palabras = ['']
+palabras = ['La', 'fceia', 'es', 'la', 'facultad', 'de', 'ciencias', 'exactas', 'ingeniería', 'y', 'agrimensura']
 Pistas:
 * entre las palabras debería haber un espacio
 * la concatenación de cadenas se logra con el operador +
@@ -88,6 +88,8 @@ Analicemos lo que paso arriba:
 4. Vuelvo a preguntar por un número y redefino la variable `ingreso`
 5. Cuando `ingreso` es igual a `target` o `ingreso` != `target` --> False, me retiro del while
 6. Imprimo `Ganaste`
+
+Pensemos como usarlo con la función random 
 '''
 
 # Otro ejemplo, cuenta atrás para año nuevo
@@ -114,9 +116,16 @@ Secuencia de pasos según (1):
 2. Si es false, salir del  `while` y continuar con la ejecución del resto del código
 3. Si la condición es verdadera, correr el cuerpo de código dentro del `while` y volver al paso 1.
 
-
+'''
 
 '''
+Ejercicio de clase para escribir la lógica en el pizarrón juntes y el código en la compu solos.
+Vamos a crear un juego para niñes que están aprendiendo a sumar.
+En pantalla se mostrarán dos números y se le debe pedir a la persona que calcule la suma de ambos.
+Si la suma es correcta felicitar a la persona. Sino, alentarla a que siga intentando hasta lograrlo
+
+'''
+
 
 '''Bibliografía:
 (1) Downey, A. 2016. "Think Python, How to think like a computer scientist". Publicado por O'Reilly
