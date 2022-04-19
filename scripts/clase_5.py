@@ -89,7 +89,7 @@ Analicemos lo que paso arriba:
 5. Cuando `ingreso` es igual a `target` o `ingreso` != `target` --> False, me retiro del while
 6. Imprimo `Ganaste`
 
-Pensemos como usarlo con la función random 
+Pensemos como usarlo con la función random
 '''
 
 # Otro ejemplo, cuenta atrás para año nuevo
@@ -123,6 +123,22 @@ Ejercicio de clase para escribir la lógica en el pizarrón juntes y el código 
 Vamos a crear un juego para niñes que están aprendiendo a sumar.
 En pantalla se mostrarán dos números y se le debe pedir a la persona que calcule la suma de ambos.
 Si la suma es correcta felicitar a la persona. Sino, alentarla a que siga intentando hasta lograrlo
+
+'''
+
+'''
+Ejercicios extras
+1. Escribir un programa que permita ingresar un número llamado valor_objetivo.
+Luego, se debe pedir al usuario que ingrese números por consola hasta que la suma de los números ingresados sea mayor o igual que valor_objetivo
+
+2. Escribir un programa que le permita a una persona ingresar 10 números. Al finalizar, calcular la media, el máximo y el mínimo entre esos valores
+
+3. Escribir un programa que le permita al usuario ingresar la lista del supermercado.
+Para finalizar la lista, se deberá ingresar el símbolo *
+Imprimir la lista del supermercado
+
+4. Volvemos al ejercicio de la clase anterior donde segmentamos a la población por edades.
+Escribir un programa dónde se ingresen 10 edades y devuelva la cantidad de personas en cada grupo etario
 
 '''
 
