@@ -57,6 +57,36 @@ for i in range(5, 9):
 for i in range(1, 10, 2):
     print(i)
 
+"""
+### Contadores
+En el control de flujo que se logra a través de las iteraciones en un bucle, muchas veces es necesario el uso de "contadores".
+Estos elementos son una variable a la que se le asigna un valor inicial (comúnmente  0 ) y se incrementa su valor con cada recorrido con el código interno del bucle
+
+un ejemplo de uso de un contador puede ser
+"""
+cont = 0
+for i in range(10):
+     count = count + 1
+# (esto incrementará el valor de la varaible "count" en 1 cada vuelta)
+
+"""
+#### Operadores de asignación
+Es importante tener en cuenta que muchas veces encontraremos
+count += 1
+
+esta declaracion reducida es equivalente a:
+count = count + 1
+
+La misma notación puede aplicarse con otros operadores aritmético
+
+EJEMPLOS DE USO
+- count -= 1  restara 1 cada iteración
+- count *= 2  duplicará el valor cada iteración
+- count / 2  divirá por dos el valor cada iteración
+- count ** 2  elevará al cuadrado el valor cada iteración
+
+"""
+
 '''
 Ejercicio de clase para hacer entre todos en el pizarrón
 Usando la lista de cadenas de abajo, generar una frase e imprimirla.
@@ -66,6 +96,25 @@ Pistas:
 * la concatenación de cadenas se logra con el operador +
 * definir una variable `frase` a la que adicionar las palaras
 '''
+
+"""
+### Uso del primer objeto iterable (cadena)
+
+En clases anteriores vimos que existian objetos que no eran unidimensionales. Mensionamos que el primero que veríamos es la CADENA.
+Sobre estos objetos es posible "iterar" por cada uno de sus elementos. En el caso de la cadena sus elementos interiores son CARACTERES.
+Así pordríamos generar un bucle que repita el mismo flujo de codigo sobre cada uno de los caracteres.
+
+El ejemplo básico:
+
+"Contar cuantas letras tiene una cadena" (esto lo hace como vimos la funciòn len())"
+"""
+
+palabra = "rio"
+count = 0
+for i in palabra:
+  count += 1
+print("la palabra tiene: ", count, " letras")
+
 
 '''
 ### Sentencia while
@@ -117,6 +166,28 @@ Secuencia de pasos según (1):
 3. Si la condición es verdadera, correr el cuerpo de código dentro del `while` y volver al paso 1.
 
 '''
+
+"""
+------------------------------------------------------------------------------------
+             Diferencias y similitudes de las sentencias for y while
+
+                 "for"                                   "while"
+
+
+-      Se sabe el n° de iteraciones                    No se sabe
+
+-          Usa un contador                      puede usar un cotador pero
+                                                debe ser iniciado antes del
+                                                bucle y debe incrementar dentro
+
+-     Puede reescribirse un for                   No se puede a la inversa
+          usando un while
+
+-     Se puede terminar con "break"                Se puede terminar con "break"
+
+------------------------------------------------------------------------------------
+"""
+
 
 '''
 Ejercicio de clase para escribir la lógica en el pizarrón juntes y el código en la compu solos.
